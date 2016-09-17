@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322A6C661D8C91E5009871E2 /* DareList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 322A6C641D8C91E5009871E2 /* DareList.xcdatamodeld */; };
+		322A6C691D8C92CE009871E2 /* Dare+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A6C671D8C92CE009871E2 /* Dare+CoreDataProperties.swift */; };
+		322A6C6A1D8C92CE009871E2 /* Dare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A6C681D8C92CE009871E2 /* Dare.swift */; };
+		322A6C6D1D8C9413009871E2 /* CancelButtonDelegete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A6C6C1D8C9413009871E2 /* CancelButtonDelegete.swift */; };
+		322A6C6F1D8C941B009871E2 /* DareDetailsDelegete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322A6C6E1D8C941B009871E2 /* DareDetailsDelegete.swift */; };
+		323A787F1D8B73B800E15FF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A787E1D8B73B800E15FF5 /* AppDelegate.swift */; };
+		323A78811D8B73B800E15FF5 /* HomeMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78801D8B73B800E15FF5 /* HomeMapViewController.swift */; };
+		323A78841D8B73B800E15FF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A78821D8B73B800E15FF5 /* Main.storyboard */; };
+		323A78861D8B73B800E15FF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323A78851D8B73B800E15FF5 /* Assets.xcassets */; };
+		323A78891D8B73B800E15FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323A78871D8B73B800E15FF5 /* LaunchScreen.storyboard */; };
+		323A78941D8B73B800E15FF5 /* DareDevilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78931D8B73B800E15FF5 /* DareDevilTests.swift */; };
+		323A789F1D8B73B800E15FF5 /* DareDevilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A789E1D8B73B800E15FF5 /* DareDevilUITests.swift */; };
+		323A78AD1D8B792100E15FF5 /* EvidenceGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78AC1D8B792100E15FF5 /* EvidenceGalleryViewController.swift */; };
+		323A78B01D8B7A8100E15FF5 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78AF1D8B7A8100E15FF5 /* UserInfoViewController.swift */; };
+		323A78B21D8B7BB800E15FF5 /* DareDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A78B11D8B7BB800E15FF5 /* DareDetailsViewController.swift */; };
+		32BA569D1D8CA721005F73B8 /* VCDareMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA569C1D8CA721005F73B8 /* VCDareMap.swift */; };
+		32BA56A11D8CA736005F73B8 /* bae.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32BA569E1D8CA736005F73B8 /* bae.jpg */; };
+		32BA56A21D8CA736005F73B8 /* dojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32BA569F1D8CA736005F73B8 /* dojo.jpg */; };
+		32BA56A31D8CA736005F73B8 /* racing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 32BA56A01D8CA736005F73B8 /* racing.jpg */; };
+		32BA56A51D8CA92C005F73B8 /* annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BA56A41D8CA92C005F73B8 /* annotations.swift */; };
+		4DEEF9101D8C6EBC0015E908 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF90F1D8C6EBC0015E908 /* 1.jpg */; };
+		4DEEF9151D8C72E80015E908 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF9111D8C72E80015E908 /* 2.jpg */; };
+		4DEEF9161D8C72E80015E908 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF9121D8C72E80015E908 /* 3.jpg */; };
+		4DEEF9171D8C72E80015E908 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF9131D8C72E80015E908 /* 4.jpg */; };
+		4DEEF9181D8C72E80015E908 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DEEF9141D8C72E80015E908 /* 5.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323A78901D8B73B800E15FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323A78731D8B73B700E15FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323A787A1D8B73B700E15FF5;
+			remoteInfo = DareDevil;
+		};
+		323A789B1D8B73B800E15FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323A78731D8B73B700E15FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323A787A1D8B73B700E15FF5;
+			remoteInfo = DareDevil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		322A6C651D8C91E5009871E2 /* DareList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DareList.xcdatamodel; sourceTree = "<group>"; };
+		322A6C671D8C92CE009871E2 /* Dare+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dare+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		322A6C681D8C92CE009871E2 /* Dare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dare.swift; sourceTree = "<group>"; };
+		322A6C6C1D8C9413009871E2 /* CancelButtonDelegete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegete.swift; sourceTree = "<group>"; };
+		322A6C6E1D8C941B009871E2 /* DareDetailsDelegete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DareDetailsDelegete.swift; sourceTree = "<group>"; };
+		323A787B1D8B73B800E15FF5 /* DareDevil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DareDevil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A787E1D8B73B800E15FF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		323A78801D8B73B800E15FF5 /* HomeMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapViewController.swift; sourceTree = "<group>"; };
+		323A78831D8B73B800E15FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323A78851D8B73B800E15FF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323A78881D8B73B800E15FF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		323A788A1D8B73B800E15FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323A788F1D8B73B800E15FF5 /* DareDevilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DareDevilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A78931D8B73B800E15FF5 /* DareDevilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DareDevilTests.swift; sourceTree = "<group>"; };
+		323A78951D8B73B800E15FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323A789A1D8B73B800E15FF5 /* DareDevilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DareDevilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		323A789E1D8B73B800E15FF5 /* DareDevilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DareDevilUITests.swift; sourceTree = "<group>"; };
+		323A78A01D8B73B800E15FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323A78AC1D8B792100E15FF5 /* EvidenceGalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvidenceGalleryViewController.swift; sourceTree = "<group>"; };
+		323A78AF1D8B7A8100E15FF5 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		323A78B11D8B7BB800E15FF5 /* DareDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DareDetailsViewController.swift; sourceTree = "<group>"; };
+		32BA569C1D8CA721005F73B8 /* VCDareMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VCDareMap.swift; path = DareDevil/VCDareMap.swift; sourceTree = "<group>"; };
+		32BA569E1D8CA736005F73B8 /* bae.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bae.jpg; sourceTree = "<group>"; };
+		32BA569F1D8CA736005F73B8 /* dojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dojo.jpg; sourceTree = "<group>"; };
+		32BA56A01D8CA736005F73B8 /* racing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = racing.jpg; sourceTree = "<group>"; };
+		32BA56A41D8CA92C005F73B8 /* annotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annotations.swift; sourceTree = "<group>"; };
+		4DEEF90F1D8C6EBC0015E908 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = Assets.xcassets/1.jpg; sourceTree = "<group>"; };
+		4DEEF9111D8C72E80015E908 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = Assets.xcassets/2.jpg; sourceTree = "<group>"; };
+		4DEEF9121D8C72E80015E908 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = Assets.xcassets/3.jpg; sourceTree = "<group>"; };
+		4DEEF9131D8C72E80015E908 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = Assets.xcassets/4.jpg; sourceTree = "<group>"; };
+		4DEEF9141D8C72E80015E908 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = Assets.xcassets/5.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323A78781D8B73B700E15FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A788C1D8B73B800E15FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A78971D8B73B800E15FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322A6C6B1D8C93FB009871E2 /* Delegetes */ = {
+			isa = PBXGroup;
+			children = (
+				322A6C6C1D8C9413009871E2 /* CancelButtonDelegete.swift */,
+				322A6C6E1D8C941B009871E2 /* DareDetailsDelegete.swift */,
+			);
+			name = Delegetes;
+			sourceTree = "<group>";
+		};
+		323A78721D8B73B700E15FF5 = {
+			isa = PBXGroup;
+			children = (
+				322A6C671D8C92CE009871E2 /* Dare+CoreDataProperties.swift */,
+				322A6C681D8C92CE009871E2 /* Dare.swift */,
+				32BA569C1D8CA721005F73B8 /* VCDareMap.swift */,
+				323A787D1D8B73B800E15FF5 /* DareDevil */,
+				323A78921D8B73B800E15FF5 /* DareDevilTests */,
+				323A789D1D8B73B800E15FF5 /* DareDevilUITests */,
+				323A787C1D8B73B800E15FF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		323A787C1D8B73B800E15FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323A787B1D8B73B800E15FF5 /* DareDevil.app */,
+				323A788F1D8B73B800E15FF5 /* DareDevilTests.xctest */,
+				323A789A1D8B73B800E15FF5 /* DareDevilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323A787D1D8B73B800E15FF5 /* DareDevil */ = {
+			isa = PBXGroup;
+			children = (
+				322A6C641D8C91E5009871E2 /* DareList.xcdatamodeld */,
+				323A787E1D8B73B800E15FF5 /* AppDelegate.swift */,
+				323A78AE1D8B795900E15FF5 /* Controllers */,
+				323A78821D8B73B800E15FF5 /* Main.storyboard */,
+				32BA56A41D8CA92C005F73B8 /* annotations.swift */,
+				323A78851D8B73B800E15FF5 /* Assets.xcassets */,
+				32BA569E1D8CA736005F73B8 /* bae.jpg */,
+				32BA569F1D8CA736005F73B8 /* dojo.jpg */,
+				32BA56A01D8CA736005F73B8 /* racing.jpg */,
+				4DEEF9111D8C72E80015E908 /* 2.jpg */,
+				4DEEF9121D8C72E80015E908 /* 3.jpg */,
+				4DEEF9131D8C72E80015E908 /* 4.jpg */,
+				4DEEF9141D8C72E80015E908 /* 5.jpg */,
+				4DEEF90F1D8C6EBC0015E908 /* 1.jpg */,
+				322A6C6B1D8C93FB009871E2 /* Delegetes */,
+				323A78871D8B73B800E15FF5 /* LaunchScreen.storyboard */,
+				323A788A1D8B73B800E15FF5 /* Info.plist */,
+			);
+			path = DareDevil;
+			sourceTree = "<group>";
+		};
+		323A78921D8B73B800E15FF5 /* DareDevilTests */ = {
+			isa = PBXGroup;
+			children = (
+				323A78931D8B73B800E15FF5 /* DareDevilTests.swift */,
+				323A78951D8B73B800E15FF5 /* Info.plist */,
+			);
+			path = DareDevilTests;
+			sourceTree = "<group>";
+		};
+		323A789D1D8B73B800E15FF5 /* DareDevilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				323A789E1D8B73B800E15FF5 /* DareDevilUITests.swift */,
+				323A78A01D8B73B800E15FF5 /* Info.plist */,
+			);
+			path = DareDevilUITests;
+			sourceTree = "<group>";
+		};
+		323A78AE1D8B795900E15FF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				323A78801D8B73B800E15FF5 /* HomeMapViewController.swift */,
+				323A78AF1D8B7A8100E15FF5 /* UserInfoViewController.swift */,
+				323A78AC1D8B792100E15FF5 /* EvidenceGalleryViewController.swift */,
+				323A78B11D8B7BB800E15FF5 /* DareDetailsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323A787A1D8B73B700E15FF5 /* DareDevil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A78A31D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevil" */;
+			buildPhases = (
+				323A78771D8B73B700E15FF5 /* Sources */,
+				323A78781D8B73B700E15FF5 /* Frameworks */,
+				323A78791D8B73B700E15FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DareDevil;
+			productName = DareDevil;
+			productReference = 323A787B1D8B73B800E15FF5 /* DareDevil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		323A788E1D8B73B800E15FF5 /* DareDevilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A78A61D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilTests" */;
+			buildPhases = (
+				323A788B1D8B73B800E15FF5 /* Sources */,
+				323A788C1D8B73B800E15FF5 /* Frameworks */,
+				323A788D1D8B73B800E15FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323A78911D8B73B800E15FF5 /* PBXTargetDependency */,
+			);
+			name = DareDevilTests;
+			productName = DareDevilTests;
+			productReference = 323A788F1D8B73B800E15FF5 /* DareDevilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		323A78991D8B73B800E15FF5 /* DareDevilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323A78A91D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilUITests" */;
+			buildPhases = (
+				323A78961D8B73B800E15FF5 /* Sources */,
+				323A78971D8B73B800E15FF5 /* Frameworks */,
+				323A78981D8B73B800E15FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323A789C1D8B73B800E15FF5 /* PBXTargetDependency */,
+			);
+			name = DareDevilUITests;
+			productName = DareDevilUITests;
+			productReference = 323A789A1D8B73B800E15FF5 /* DareDevilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323A78731D8B73B700E15FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bruce;
+				TargetAttributes = {
+					323A787A1D8B73B700E15FF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7DWC258SX7;
+					};
+					323A788E1D8B73B800E15FF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 323A787A1D8B73B700E15FF5;
+					};
+					323A78991D8B73B800E15FF5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 323A787A1D8B73B700E15FF5;
+					};
+				};
+			};
+			buildConfigurationList = 323A78761D8B73B700E15FF5 /* Build configuration list for PBXProject "DareDevil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323A78721D8B73B700E15FF5;
+			productRefGroup = 323A787C1D8B73B800E15FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323A787A1D8B73B700E15FF5 /* DareDevil */,
+				323A788E1D8B73B800E15FF5 /* DareDevilTests */,
+				323A78991D8B73B800E15FF5 /* DareDevilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323A78791D8B73B700E15FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BA56A11D8CA736005F73B8 /* bae.jpg in Resources */,
+				32BA56A21D8CA736005F73B8 /* dojo.jpg in Resources */,
+				323A78891D8B73B800E15FF5 /* LaunchScreen.storyboard in Resources */,
+				32BA56A31D8CA736005F73B8 /* racing.jpg in Resources */,
+				4DEEF9181D8C72E80015E908 /* 5.jpg in Resources */,
+				4DEEF9171D8C72E80015E908 /* 4.jpg in Resources */,
+				4DEEF9101D8C6EBC0015E908 /* 1.jpg in Resources */,
+				4DEEF9151D8C72E80015E908 /* 2.jpg in Resources */,
+				4DEEF9161D8C72E80015E908 /* 3.jpg in Resources */,
+				323A78861D8B73B800E15FF5 /* Assets.xcassets in Resources */,
+				323A78841D8B73B800E15FF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A788D1D8B73B800E15FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A78981D8B73B800E15FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323A78771D8B73B700E15FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A78AD1D8B792100E15FF5 /* EvidenceGalleryViewController.swift in Sources */,
+				322A6C6F1D8C941B009871E2 /* DareDetailsDelegete.swift in Sources */,
+				322A6C6D1D8C9413009871E2 /* CancelButtonDelegete.swift in Sources */,
+				322A6C6A1D8C92CE009871E2 /* Dare.swift in Sources */,
+				322A6C661D8C91E5009871E2 /* DareList.xcdatamodeld in Sources */,
+				323A78B01D8B7A8100E15FF5 /* UserInfoViewController.swift in Sources */,
+				32BA56A51D8CA92C005F73B8 /* annotations.swift in Sources */,
+				323A78811D8B73B800E15FF5 /* HomeMapViewController.swift in Sources */,
+				32BA569D1D8CA721005F73B8 /* VCDareMap.swift in Sources */,
+				323A787F1D8B73B800E15FF5 /* AppDelegate.swift in Sources */,
+				322A6C691D8C92CE009871E2 /* Dare+CoreDataProperties.swift in Sources */,
+				323A78B21D8B7BB800E15FF5 /* DareDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A788B1D8B73B800E15FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A78941D8B73B800E15FF5 /* DareDevilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323A78961D8B73B800E15FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323A789F1D8B73B800E15FF5 /* DareDevilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		323A78911D8B73B800E15FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323A787A1D8B73B700E15FF5 /* DareDevil */;
+			targetProxy = 323A78901D8B73B800E15FF5 /* PBXContainerItemProxy */;
+		};
+		323A789C1D8B73B800E15FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323A787A1D8B73B700E15FF5 /* DareDevil */;
+			targetProxy = 323A789B1D8B73B800E15FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		323A78821D8B73B800E15FF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323A78831D8B73B800E15FF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323A78871D8B73B800E15FF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323A78881D8B73B800E15FF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323A78A11D8B73B800E15FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		323A78A21D8B73B800E15FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323A78A41D8B73B800E15FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DareDevil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		323A78A51D8B73B800E15FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DareDevil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		323A78A71D8B73B800E15FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DareDevilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DareDevil.app/DareDevil";
+			};
+			name = Debug;
+		};
+		323A78A81D8B73B800E15FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DareDevilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DareDevil.app/DareDevil";
+			};
+			name = Release;
+		};
+		323A78AA1D8B73B800E15FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DareDevilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DareDevil;
+			};
+			name = Debug;
+		};
+		323A78AB1D8B73B800E15FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DareDevilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dojo.DareDevilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DareDevil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323A78761D8B73B700E15FF5 /* Build configuration list for PBXProject "DareDevil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A78A11D8B73B800E15FF5 /* Debug */,
+				323A78A21D8B73B800E15FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323A78A31D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A78A41D8B73B800E15FF5 /* Debug */,
+				323A78A51D8B73B800E15FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323A78A61D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A78A71D8B73B800E15FF5 /* Debug */,
+				323A78A81D8B73B800E15FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323A78A91D8B73B800E15FF5 /* Build configuration list for PBXNativeTarget "DareDevilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323A78AA1D8B73B800E15FF5 /* Debug */,
+				323A78AB1D8B73B800E15FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		322A6C641D8C91E5009871E2 /* DareList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				322A6C651D8C91E5009871E2 /* DareList.xcdatamodel */,
+			);
+			currentVersion = 322A6C651D8C91E5009871E2 /* DareList.xcdatamodel */;
+			path = DareList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 323A78731D8B73B700E15FF5 /* Project object */;
+}
